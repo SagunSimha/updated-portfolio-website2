@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagun's Website</title>
+    <link rel="stylesheet" href="/web_style.css">
+</head>
+
+<body>
+
+    <header>
+        <!--NAV BAR-->
+        <nav class="navbar_top">
+            <!--left NAV Bar-->
+            <div class="navbarclass_1">
+                <a href="#" onclick="showPage('page1')" class="navigation_links_portfolio">MY PORTFOLIO</a>
+            </div>
+            <!--right NAV Bar-->
+            <div class="navbarclass_2" id="navbarclass_2web">
+                <a href="#" onclick="showPage('page1')" class="navigation_links"> Home </a>
+                <a href="#" onclick="showPage('page2')" class="navigation_links"> About me </a>
+                <a href="#" onclick="showPage('page3')" class="navigation_links"> Skill </a>
+                <a href="#" onclick="showPage('page4')" class="navigation_links"> Projects </a>
+                <a href="#" onclick="showPage('page5')" class="navigation_links" id="navigation_links_contact"> Contact
+                </a>
+            </div>
+            <!-- Dropdown Menu -->
+            <div class="navbarclass_2" id="navbarclass_2mobile">
+                <!-- Dropdown Menu -->
+                <div class="dropdown">
+                    <div class="dropdown_icon">
+                        <img src="hamburger_icon.png" alt="hamburgericon" class="dropbtn" onclick="myFunction()">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="#" onclick="showPage('page1')" class="navigation_links">Home</a>
+                        <a href="#" onclick="showPage('page2')" class="navigation_links">About me</a>
+                        <a href="#" onclick="showPage('page3')" class="navigation_links">Skill</a>
+                        <a href="#" onclick="showPage('page4')" class="navigation_links">Projects</a>
+                        <a href="#" onclick="showPage('page5')" class="navigation_links"
+                            id="navigation_links_contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main_body">
+            <!--Home welcome intro-->
+            <div class="page" id="page1">
+                <h1 id="typewriting_animation">I'm Sagun Simha Thakuri</h1><br><br>
+                <div id="page1_main_body_div">
+
+                    <div>
+                        <p>Hi, I welcome you to my website that I’ve created using Html, CSS, and JavaScript. It’s a
+                            space
+                            where
+                            I
+                            showcase my journey into software development and share the projects I've been working on.
+                            As I
+                            continue to learn and grow in the tech world, I’m excited to bring you along for the ride.
+                            Click
+                            on
+                            my
+                            <a href="https://www.linkedin.com/in/hi-sagun/" target="_blank" class="special_link">
+                                <b>linkedin</b>
+                            </a> profile and let's get connected.
+                        </p>
+                    </div>
+
+                    <div id="page1img">
+                        <img src="Profile Pic Png .png" alt="Sagun Simha Thakuri Profile Picture" height="250px">
+                    </div>
+
+                </div>
+            </div>
+
+            <!--ABOUT ME-->
+            <div class="page hidden" id="page2">
+                <section class="section" id="section_about_me">
+                    <div class="about_me">
+                        <article>
+                            <h1>ABOUT ME</h1>
+                            <p>Aspiring Software Developer with a passion for technology and innovation. Currently
+                                pursuing a
+                                Bachelor's
+                                degree in Computer Information Systems at North Carolina Wesleyan University. I have
+                                hands-on
+                                experience
+                                with Python, HTML, CSS, JavaScript, SQL, and database management. My goal is to achieve
+                                certifications
+                                like Compliant A+, Network+, and Security+ while advancing my knowledge of both software
+                                and
+                                hardware
+                                systems. Driven by creativity and problem-solving, I aim to make a meaningful impact in
+                                the tech
+                                industry.</p>
+                        </article>
+                    </div>
+                </section>
+                <br>
+                <section class="section" id="section_my_experience">
+                    <h1>My Experience</h1>
+                    <p>I’m currently a Computer Information Systems student at North Carolina Wesleyan University,
+                        gaining
+                        foundational knowledge in software development, hardware, and cybersecurity. I have worked at
+                        the front
+                        desk of GTC Hall, where I honed my hospitality, communication, and administrative skills using
+                        Outlook,
+                        MS Word, and Excel.
+                        In addition to my studies, I'm preparing for certifications like CompTIA A+, Network+, and
+                        Security+ to
+                        solidify my technical expertise. My experiences across customer service and IT support have
+                        equipped me
+                        with problem-solving skills and adaptability, which I aim to apply as I move forward in my
+                        journey to
+                        becoming a full-stack software developer.</p>
+                </section>
+                <br>
+                <section class="section" id="section_academic_progress">
+                    <h1>Current Academic Progress</h1>
+
+                    <h3>My Grade in NCWU</h3>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th colspan="3">Computer Information System</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td><b>Semester</b></td>
+                                <td><b>Credit Earned</b></td>
+                                <td><b>GPA</b></td>
+                            </tr>
+                            <tr>
+                                <td>First</td>
+                                <td>15</td>
+                                <td>4.00</td>
+                            </tr>
+                            <tr>
+                                <td>Second</td>
+                                <td>16</td>
+                                <td>4.00</td>
+                            </tr>
+                            <tr>
+                                <td>Third</td>
+                                <td>18</td>
+                                <td>3.91</td>
+                            </tr>
+                            <tr>
+                                <td>Fourth</td>
+                                <td>18</td>
+                                <td>WIP</td>
+                            </tr>
+                        </tbody>
+
+                        <tfoot>
+                            <td><b>Total</b></td>
+                            <td><b>67</b></td>
+                            <td><b>3.91</b></td>
+                        </tfoot>
+                    </table>
+                </section>
+                <br>
+                <br>
+                <section class="section" id="section_aditional_info">
+                    <h1>Aditional Interests and Hobbies</h1>
+                    <p>In addition to my technical and academic pursuits, I’m passionate about entrepreneurship,
+                        contributing to
+                        the Nepali film industry, and investments. I have a deep appreciation for art, and in my free
+                        time, I
+                        enjoy playing guitar. These interests fuel my creativity and drive me to explore opportunities
+                        beyond
+                        software development, aiming to make a broader impact in various industries.</p>
+                    <p>
+                        <br>
+                </section>
+
+                <!-- NOT IMPORTANT <section>
+                    <h1>Finance and Business</h1>
+                    How do I effectively manage and finance my monthly income? <br>
+                    As an international student, managing my finances effectively is crucial. To do this, I follow
+                    the
+                    70-10-20
+                    rule: 70% of my budget goes toward living expenses and food, 10% is allocated for personal
+                    expenses,
+                    and the
+                    remaining 20% is dedicated to savings and investments. This approach helps me maintain financial
+                    stability
+                    while pursuing my studies.
+                    <br>
+                    Here's a demonstration of a Table that I created for me.
+                    <br>
+                    <br>
+                    <table class="table">
+                        <thead>
+                            <tr aria-colspan="4">
+                                <p>
+                                <h4> Monthly Income As of 2024 </h4>
+                                </p>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <th>Salary</th>
+                                <th>70%</th>
+                                <th>10%</th>
+                                <th>20%</th>
+                            </tr>
+                            <tr>
+                                <td>$2500</td>
+                                <td>$1750</td>
+                                <td>$250</td>
+                                <td>$500</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </p>
+                </section> -->
+            </div>
+
+            <!--SKILLS-->
+            <div class="page hidden" id="page3">
+                <h1>MY Skills</h1>
+                <Section>
+                    <!--TECH SKILL-->
+                    <div>
+                        <h2>Tech Skills</h2>
+                        <ul class="tech_skill_ul">
+                            <li> <img src="JS_logo.png" alt="JS ICON" class="tech_skill_icon"> <br>
+                                JavaScript </li>
+                            <li> <img src="HTML_logo.png" alt="HTML ICON" class="tech_skill_icon"> <br> Html
+                            </li>
+                            <li> <img src="CSS_logo.png" alt="CSS ICON" class="tech_skill_icon"> <br> CSS
+                            </li>
+                        </ul>
+                        <br>
+                        <br>
+                        <ul class="tech_skill_ul">
+                            <li> <img src="BOOTSTRAP_logo.png" alt="BootStrap ICON" class="tech_skill_icon">
+                                <br> BootStrap
+                            </li>
+                            <li> <img src="PYTHON_logo.png" alt="Python ICON" class="tech_skill_icon"> <br>
+                                Python </li>
+                            <li> <img src="C++_logo.png" alt="C++ ICON" class="tech_skill_icon"> <br> C++
+                            </li>
+                        </ul>
+                    </div>
+                </Section>
+
+                <!--Entreprenureship-->
+                <section>
+                    <h2>Entrepreneurship</h2>
+                    <ul class="entrepreneurship_ul">
+                        <li>
+                            <strong>
+                                <h3>Investments</h3>
+                            </strong>
+                            <p>Currently exploring the fundamentals of investing, including the principles of compound
+                                interest, mutual funds, and the S&P 500. I aim to expand my investment portfolio,
+                                focusing on technology industries for long-term growth.</p>
+                        </li>
+                        <li>
+                            <strong>
+                                <h3>Marketing</h3>
+                            </strong>
+                            <p>Gained insights into marketing strategies and their critical role in driving business
+                                success and sustainability. I am committed to applying this knowledge to help businesses
+                                thrive in competitive environments.</p>
+                        </li>
+                    </ul>
+
+                </section>
+
+                <!--Film Production-->
+                <section>
+                    <h2>Film Industry</h2>
+                    <ul class="film_industry_ul">
+                        <li>
+                            <strong>
+                                <h3>Production Manager</h3>
+                            </strong>
+                            <p>Oversaw the production of the short film <em>LOCKED</em> by Jyotsana Simha Thakuri,
+                                ensuring timely completion and coordination between departments.</p>
+                        </li>
+                        <li>
+                            <strong>
+                                <h3>Video Producer</h3>
+                            </strong>
+                            <p>Awarded a Cinematography certificate from AVAS, demonstrating proficiency in visual
+                                storytelling and technical skills in video production.</p>
+                        </li>
+                        <li>
+                            <strong>
+                                <h3>Assistant Cinematographer</h3>
+                            </strong>
+                            <p>Collaborated with the cinematography team on various projects, contributing to camera
+                                work and lighting design.</p>
+                        </li>
+                        <li>
+                            <strong>
+                                <h3>Child Actor</h3>
+                            </strong>
+                            <p>Performed as a child actor in the film <em>Bhush ko logne</em>, gaining experience in
+                                on-screen performance and character development.</p>
+                        </li>
+                        <li>
+                            <strong>
+                                <h3>Film Writer</h3>
+                            </strong>
+                            <p>Currently developing a short film titled <em>Antim Patra</em>, focusing on themes of
+                                domestic abuse and the healing power of love.</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <!--Certifications-->
+                <Section>
+                    <!--CERTIFICATES-->
+                    <div>
+                        <h2>CERTIFICATIONS</h2>
+                        <ul class="tech_skill_ul">
+                            <li> <img src="CompTIA A (220-1101) copy.png" alt="CompTIA (220-1101)"
+                                    class="certification_image"> <br> CompTIA (220-1101)
+                            </li>
+                            <li> <img src="CompTIA A (220-1102) copy.png" alt="CompTIA (220-1102)"
+                                    class="certification_image"> <br> CompTIA (220-1102)
+                            </li>
+                        </ul>
+                        <ul class="tech_skill_ul">
+                            <li> <img src="Visual Analytics Fundamentals copy.png" alt="CSS ICON"
+                                    class="certification_image"> <br> Visual Analytics
+                            </li>
+                            <li> <img src="AVAS.jpeg" alt="CSS ICON" class="certification_image"> <br> VIDEOGRAPHY
+                            </li>
+                        </ul>
+                    </div>
+                </Section>
+            </div>
+
+            <!--PROJECTS-->
+            <div class="page hidden" id="page4">
+                <div>
+                    <p>"This page contain some of my projects that I am planning to create and currently working on."
+                    </p>
+                </div>
+                <br>
+                <div>
+                    <h1>WEBSITES</h1>
+                    <ol>
+                        <li><a href="https://sagunsimha.netlify.app/#" class="special_link">Personal Portfolio</a></li>
+                        <li>Dream Project 1</li>
+                    </ol>
+                </div>
+                <br>
+                <div>
+                    <h1>PYTHON PROJECTS</h1>
+                    <ol>
+                        <li>Calculator</li>
+                        <li>To do list</li>
+                        <li>GAME</li>
+                    </ol>
+                </div>
+                <br>
+                <div>
+                    <h1>DATA ANALYSIS</h1>
+                    <p> In my Tableau Data Analysis project, I analyzed data on international students in U.S.
+                        universities,
+                        highlighting their significance within the education system. I examined how the population of
+                        international students shifted over time and delved into their preferences for fields of study.
+                        Additionally, I tracked the evolution of their degree choices, from undergraduate to advanced
+                        levels. Through various charts and graphs, I aimed to provide a clear understanding of the
+                        impact international students have had on American higher education. You can look it up
+                        navigating through <a
+                            href="https://public.tableau.com/app/profile/sagun.simha/viz/TableauProject_17137624895980/Dashboard2"
+                            class="special_link">tableau</a> link. Thank you.</p>
+                </div>
+                <div>
+                    <h1>Film Industry</h1>
+                    <p> Acted as a child actor in a short film titled "Maya's Husk Husband" by <a
+                            href="https://www.youtube.com/embed/nsODTGXZylw?si=MLcenEef078A25dU"
+                            class="special_link">Jyotsana Creation Media Pvt. Ltd.</a>
+                    </p>
+                </div>
+            </div>
+
+            <!--CONTACT ME-->
+            <div class="page hidden" id="page5">
+                <h1>Contact Me</h1>
+                <br>
+                <section class="contact_section">
+                    <div class="contact_section_Div1">
+                        <h3>
+                            Do we share a common interest? Let's connect together through <a
+                                href="https://www.linkedin.com/in/hi-sagun" class="special_link">linkedin</a>.
+                            <br><br>
+                            Just wanna say hi? Let's chat!
+                        </h3>
+                    </div>
+                    <div class="contact_section_Div2">
+                        <form class="contact_form" id="contactForm" action="mailto:sagunsimha18@gmail.com" method="POST"
+                            enctype="text/plain">
+                            <div class="form-group-names">
+                                <div class="form-group">
+                                    <label for="fname"><b>First Name</b></label><br>
+                                    <input type="text" name="First_Name" id="fname" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lname"><b>Last Name</b></label><br>
+                                    <input type="text" name="Last_Name" id="lname" required>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-group-email">
+                                <div class="form-group">
+                                    <label for="email"><b>Your Email</b></label><br>
+                                    <input type="email" name="Email_Address" id="email" required>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-group-message">
+                                <div class="form-group">
+                                    <label for="subject"><b>Subject</b></label><br>
+                                    <input type="text" name="Subject" id="subject" required>
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <label for="message"><b>Message</b></label><br>
+                                    <textarea name="Message" id="message" cols="40" rows="5" required></textarea>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-group-btn">
+                                <div class="form-group">
+                                    <button type="submit" class="btn">Submit</button>
+                                </div>
+                                <div class="form-group">
+                                    <button type="reset" class="btn">Reset</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!--Home NAV Bar Linkedin Logo Button-->
+        <nav class="navbar_bottom">
+            <!--Bottom NAV Bar-->
+            <div class="navbarclass_bottom">
+                <a href="https://www.linkedin.com/in/hi-sagun" class="navigation_links" id="link_nav_logo"> <img
+                        src="linkedinlogo.webp" alt="linkedin" width="28"> </a>
+                <a href="https://www.facebook.com/Sagun.S.Thakuri" class="navigation_links" id="facebook"> <img
+                        src="facebook logo.png" alt="facebook" width="28"> </a>
+                <a href="https://github.com/SagunSimha" class="navigation_links" id="Github"> <img src="github logo.png"
+                        alt="github" width="28"></a>
+            </div>
+        </nav>
+    </footer>
+
+    <script src="My_WebProfile.js"></script>
+    <script>
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            // Check if the clicked element is not the dropdown button
+            if (!event.target.matches('.dropbtn')) {
+                var myDropdown = document.getElementById("myDropdown");
+                // If the dropdown is shown, hide it
+                if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>

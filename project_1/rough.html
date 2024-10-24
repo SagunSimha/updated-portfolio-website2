@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/web_style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar_top">
+            <!-- Left NAV Bar -->
+            <div class="navbarclass_1">
+                <a href="#" class="navigation_links_portfolio">MY PORTFOLIO</a>
+            </div>
+            <div class="navbar">
+                
+            </div>
+        </nav>
+
+    </header>
+</body>
+<script>
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+        // Check if the clicked element is not the dropdown button
+        if (!event.target.matches('.dropbtn')) {
+            var myDropdown = document.getElementById("myDropdown");
+            // If the dropdown is shown, hide it
+            if (myDropdown.classList.contains('show')) {
+                myDropdown.classList.remove('show');
+            }
+        }
+    }
+</script>
+<script src="My_WebProfile.js"></script>
+
+</html>
